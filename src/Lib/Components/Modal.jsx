@@ -1,6 +1,7 @@
-import { useState } from 'react';
+/* eslint-disable no-unused-vars */
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import './mMdal.css';
+import './Modal.css';
 
 const Modal = () => {
   const [openModal, setOpenModal] = useState(false);
@@ -8,7 +9,7 @@ const Modal = () => {
   return (
     <div>
       <button className="openModalBtn" onClick={() => setOpenModal(true)}>
-        Open
+        Save
       </button>
       {openModal && (
         <div className="modal__background">
@@ -18,7 +19,7 @@ const Modal = () => {
             </div>
             <div className="modal__title">Employee created</div>
             <div className="modal__body">
-              <p>Nice! Your employee has been successfully created 👌</p>
+              <p>Your employee has been successfully created!</p>
             </div>
             <div className="modal__footer">
               <button onClick={() => setOpenModal(false)}>Cancel</button>
