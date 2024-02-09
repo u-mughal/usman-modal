@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import './Modal.css';
+import './modal.css';
 
 const Modal = ({ title = "", text = "", closeModal }) => {
 
