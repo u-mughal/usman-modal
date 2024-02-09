@@ -27,11 +27,3 @@ Utilisez le composant Modal dans votre application, par exemple :
 ```bash
   <Modal title="Employee created" text="Well done! You've successfully created your employee" closeModal={closeModal} />
 ```
-
-## Props
-
-Vous pouvez ajouter des props dans le composant usman-modal :
-
-- title("string")
-- text("string")
-- closeModal(function)
