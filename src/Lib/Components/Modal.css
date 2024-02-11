@@ -1,3 +1,4 @@
+/* Styles pour le fond du modal */
 .modal__background {
   width: 100vw;
   height: 100vh;
@@ -11,6 +12,7 @@
   color: #2c3e50;
 }
 
+/* Styles pour le conteneur du modal */
 .modal__container {
   width: 500px;
   background-color: white;
@@ -21,6 +23,7 @@
   padding: 2rem;
 }
 
+/* Styles pour le bouton d'ouverture du modal */
 .openModalBtn {
   display: inline-block;
   font-size: 16px;
@@ -40,12 +43,14 @@
   color: #2c3e50;
 }
 
+/* Styles pour le titre du modal */
 .modal__container .modal__title {
   font-size: 1.5rem;
   font-weight: 700;
   text-align: center;
 }
 
+/* Styles pour le bouton de fermeture du modal */
 .titleCloseBtn {
   display: flex;
   justify-content: flex-end;
@@ -66,10 +71,12 @@
   color: #2c3e50;
 }
 
+/* Styles pour le corps du modal */
 .modal__body {
   text-align: center;
 }
 
+/* Styles pour le pied du modal */
 .modal__footer {
   flex: 20%;
   display: flex;

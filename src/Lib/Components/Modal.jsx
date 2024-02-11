@@ -1,6 +1,14 @@
 import PropTypes from 'prop-types';
 import './modal.css';
 
+/**
+ * Composant Modal affichant un titre, un texte et un bouton de fermeture.
+ * @param {Object} props - Les propriétés du composant.
+ * @param {string} [props.title=""] - Le titre du modal.
+ * @param {string} [props.text=""] - Le texte du modal.
+ * @param {Function} props.closeModal - La fonction de fermeture du modal.
+ * @returns {JSX.Element} Un élément JSX représentant le modal.
+ */
 const Modal = ({ title = "", text = "", closeModal }) => {
 
   return (

@@ -1,10 +1,11 @@
 
 # usman-modal
 
-usman-modal est un package npm qui fournit un composant modal simple et personnalisable pour vos applications React. Ce package vous permet d'afficher facilement un modal avec un design propre et convivial, le rendant adapté à divers cas d'utilisation tels que l'affichage de messages de réussite, d'alertes ou de tout autre type de contenu informatif.
+usman-modal est un module npm qui propose un composant modal simple et personnalisable pour les applications React. Grâce à ce module, il est facile d'afficher un modal avec un design épuré et convivial, ce qui le rend adapté à diverses situations telles que l'affichage de messages de succès, d'alertes ou de tout autre contenu informatif. 
 
-Ce modal a été créé en particulier pour le projet 14 d'OpenClassrooms (hr-net).
+Ce modal a été spécialement conçu pour le projet 14 d'OpenClassrooms (hr-net). 
 
+Vous pouvez trouver plus d'informations sur ce module sur https://www.npmjs.com/package/usman-modal.
 
 ## Installation
 
